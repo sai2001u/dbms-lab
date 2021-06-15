@@ -2,10 +2,10 @@ DROP DATABASE IF EXISTS 19WH1A1269;
 CREATE SCHEMA 19WH1A1269;
 USE 19WH1A1269;
 CREATE TABLE passenger(pid INT, name VARCHAR(50) ,age INT,gender CHAR,address VARCHAR(20));
-INSERT INTO passenger VALUES(5682, 'Smith', 43, 'M', 'Hyderabad');
-INSERT INTO passenger VALUES(5789, 'Sami', 28, 'M', 'Hyderabad');
-INSERT INTO passenger VALUES(5674, 'Jade', 21, 'F', 'Tirupathi');
-INSERT INTO passenger VALUES(5098, 'Ravi', 36, 'M', 'Vijayawada');
+INSERT INTO passenger VALUES(5682, 'Srinu', 43, 'M', 'Hyderabad');
+INSERT INTO passenger VALUES(5789, 'sridhar', 28, 'M', 'Hyderabad');
+INSERT INTO passenger VALUES(5674, 'sai sree', 21, 'F', 'Tirupathi');
+INSERT INTO passenger VALUES(5098, 'bhavya sree', 36, 'F', 'Vijayawada');
 SELECT * FROM passenger;
 
 CREATE TABLE bus(bus_no VARCHAR(20), route VARCHAR(20), bcolor VARCHAR(20));
