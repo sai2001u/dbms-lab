@@ -1,6 +1,6 @@
-### EXPERIMENT 3:
+ EXPERIMENT 3:
 
-##  Normalization: The process of decomposing relations that contain anomalies (insertion,Updation,Deletion anomalies) to produce smaller well structured relations, to reduce data redundancy.
+  Normalization: The process of decomposing relations that contain anomalies (insertion,Updation,Deletion anomalies) to produce smaller well structured relations, to reduce data redundancy.
 
 Normal Form: A state of a relation that results from applying simple rules regarding functional dependencies to that relation.
 
